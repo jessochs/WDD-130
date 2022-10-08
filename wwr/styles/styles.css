@@ -22,18 +22,19 @@ main section {
 }
 
 body {
-    background-color: seashell;
+    background-color: #95917A;
 }
 header {
-    background-color: seashell;
+    background-color: #376237;
+    color: white;
 }
 nav a:hover {
     background-color: black;
     color: white;
 }
 .book, .join {
-    background-color: forestgreen;
-    color: whitesmoke;
+    background-color: #376237;
+    color: white;
     text-decoration: none;
 }
 #background {
@@ -44,7 +45,7 @@ nav a:hover {
     color: white;
 }
 footer {
-    background-color: forestgreen;
+    background-color: #376237;
     color: white;
 }
 .home-title {
