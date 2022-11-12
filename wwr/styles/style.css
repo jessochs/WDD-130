@@ -237,3 +237,13 @@ nav {
         margin-top: 25px;
     }
 }
+.river-photo {
+    width: 500px;
+    grid-column: 9/10;
+    grid-row: 7/8;
+}
+.last-rates {
+    grid-column: 2/3;
+    grid-row: 6/7;
+
+}
