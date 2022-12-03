@@ -182,7 +182,7 @@ img {
     }
     .castle-card, .entrance-card {
         margin: 50px auto;
-        width: 60%;
+        
     }
 .hotel, .info {
     display: block;
@@ -244,3 +244,37 @@ img {
       border: 1px solid #ccc;
     }
   }
+
+/*New css page*/
+
+#content-two {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.stay-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hotel-property {
+    margin: 35px 0;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+.disneyland {
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.hotel-close {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+.hotel-far {
+    grid-column: 1/4;
+    grid-row: 3;
+    margin: 35px 0;
+}
+.balloons {
+    margin-left: 35px;
+    margin: 35px 0;
+}
