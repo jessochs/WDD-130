@@ -156,11 +156,7 @@ img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px darkgrey;
 }
-@media screen and (max-width: 900px) {
-    #welcome, .homep-grid {
-        display: block;
-        height: auto;
-    }
+
     nav, footer {
         flex-direction: column;
     }
@@ -230,6 +226,50 @@ img {
     font-size: 17px;
   }
   
+ 
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  
+
+/*New css page*/
+
+#content-two {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.stay-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hotel-property {
+    margin: 35px 0;
+    grid-column: 1/3;
+    grid-row: 1;
+
+}
+.tickets {
+    grid-column: 3/4;
+    grid-row: 1;
+}
+.hotel-close {
+    grid-column: 3/4;
+    grid-row: 2;
+    background-color: white;
+}
+.hotel-far {
+    grid-column: 1/5;
+    grid-row: 3;
+    margin: 35px 0;
+}
+.balloons {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 35px;
+    margin: 35px 0;
+}
+
+
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
   @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
@@ -244,37 +284,9 @@ img {
       border: 1px solid #ccc;
     }
   }
-
-/*New css page*/
-
-#content-two {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-.stay-grid {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.hotel-property {
-    margin: 35px 0;
-    grid-column: 1;
-    grid-row: 1;
-
-}
-.disneyland {
-    grid-column: 2/4;
-    grid-row: 1;
-}
-.hotel-close {
-    grid-column: 3/4;
-    grid-row: 2;
-}
-.hotel-far {
-    grid-column: 1/4;
-    grid-row: 3;
-    margin: 35px 0;
-}
-.balloons {
-    margin-left: 35px;
-    margin: 35px 0;
+@media screen and (max-width: 900px) {
+    #welcome, .homep-grid {
+        display: block;
+        height: auto;
+    } 
 }
